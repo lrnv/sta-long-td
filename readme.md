@@ -1,4 +1,4 @@
-# TD SAT-LONG
+# TD STA-LONG
 
 Ce TD vous propose de traiter deux jeux de données. 
 
