@@ -81,6 +81,6 @@ Répondez aux questions suivantes:
 1. Proposez une analyse de la variance sur un modèle à 1 facteur + 1 facteur de répétition
 2. Proposez une analyse de la variance sur un modèle à 1 facteur + facteur de répétition + 1 effet sujet. 
 3. Proposez une analyse de la variance sur un modèle à 1 facteur + facteur de répétition + 1 effet sujet + facteurs d'interactions (modèle saturé).
-4. Recodez la variable semaine pour pouvoir interpreter l'intercept du modèle en term de moyenne prédite pour le bras de référence choisi lors de la 1ere visite. Puis utilisez un modèle à effet mixte avec iontercet aléatoire, décrire le modèle et sa qualité (tests)
-5. Avec un intercept et une pente aléatoire ?
+4. Recodez la variable semaine pour pouvoir interpreter l'intercept du modèle en terme de moyenne prédite pour le bras de référence choisi lors de la 1ere visite. Puis utilisez un modèle à effet mixte avec intercept aléatoire, décrire le modèle et sa qualité (tests)
+5. Avec un intercept ET une pente aléatoire ?
 6. Proposez une anova basée sur un modèle linéaire marginal (GEE)
