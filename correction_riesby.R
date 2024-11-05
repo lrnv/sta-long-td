@@ -15,14 +15,31 @@ rdata <-data.frame(subj,ID,fWeek,Week,fEndog,Endog,HamD)
 
 # -------------------------------------------------------------
 # ANOVA model 
-# Modèle ANOVA 1 facteur + 1 facteur de répetition + 1  effet sujet 
+# Modèle ANOVA 1 facteur 
+#   + 1 facteur de répetition
 # -------------------------------------------------------------
-summary(lmer(HamD~fWeek+ fEndog  + (1|subj), data=rdata))
-summary(aov(HamD~fWeek + fEndog + Error(subj), data=rdata))
+summary(lm(HamD~fWeek + fEndog, data=rdata))
+summary(aov(HamD~fWeek + fEndog, data=rdata))
+
+
+
 # -------------------------------------------------------------
-# Note : aov fournit la decomposition de la variance
-# 1 composante residuelle (variabilité intra-patient)
-# 1 composante sujet (variabilité inter-patient)
+# ANOVA model 
+# Modèle ANOVA 1 facteur 
+#   + 1 facteur de répetition 
+#   + 1 effet sujet 
+# -------------------------------------------------------------
+summary(lmer(HamD~fWeek+ fEndog  + (1|subj), 
+             data=rdata))
+summary(aov(HamD~fWeek + fEndog + Error(subj), 
+            data=rdata))
+# -------------------------------------------------------------
+# Note : aov fournit la decomposition de
+# la variance
+# 1 composante sujet 
+#     (variabilité inter-patient)
+# 1 composante residuelle 
+#     (variabilité intra-patient)
 # -------------------------------------------------------------
 
 # -------------------------------------------------------------
