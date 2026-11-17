@@ -35,7 +35,8 @@ Répondez aux questions suivantes:
 0. Analyse descriptive: affichez quelques lignes du jeu de données, les étudier. Vérifier les classes des variables, affichez des boxplots et des tableaux de contingence, etc..
 1. Y as-t'il une différence dans les poids avant et après le traitement ? Utilisez des tests statistiques simples tirés du cours pour répondre à cette question.  
 2. Même question, mais en utilisant une analyse de la variance.
-3. Réessayez en prenant en compte l'hétérogénéité des poids des patients.
+3. Existe t'il une différence entre les traitements
+4. Réessayez en prenant en compte l'hétérogénéité des poids des patients.
 
 ## Partie 2 : dataset Riesby
 
